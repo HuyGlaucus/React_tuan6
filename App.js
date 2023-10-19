@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Hinh1 from './components/Hinh1.js';
+import Hinh2 from './components/Hinh2.js';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Hinh1/>
+      {/* <Hinh2/> */}
     </View>
   );
 }
